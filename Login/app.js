@@ -12,6 +12,7 @@ function onLoginSubmit(event) {
     loginForm.classList.add(HIDDEN_CLASSNAME);
     greeting.innerText = `Hello ${username}`;
     greeting.classList.remove(HIDDEN_CLASSNAME);
+    localStorage.setItem("username", username);
 }
 
 function handleLinkClick(event) {
