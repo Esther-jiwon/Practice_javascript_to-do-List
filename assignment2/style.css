@@ -1,0 +1,15 @@
+body {
+  font-family: sans-serif;
+}
+
+.wide {
+  background-color: #eebc12;
+}
+
+.normal {
+  background-color: #8f4fae;
+}
+
+.short {
+  background-color: #2e8cd5;
+}

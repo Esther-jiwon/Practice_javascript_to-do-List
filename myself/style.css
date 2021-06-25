@@ -1,0 +1,59 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0px;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+  color: white;
+}
+
+input {
+  border: none;
+  width: 250px;
+  height: 30px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.clicked {
+  color: salmon;
+}
+
+.form,
+.greeting {
+  display: none;
+}
+
+.showing {
+  display: block;
+  color: white;
+  font-size: 25px;
+}
+
+form:first-child {
+  margin-bottom: 30px;
+}
+
+ul {
+  color: white;
+}
+
+.bgimg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: -1;
+  transition: all 0.5s linear;
+}
+
+.weather {
+  color: white;
+}
